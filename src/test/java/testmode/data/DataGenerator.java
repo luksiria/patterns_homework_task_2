@@ -48,7 +48,6 @@ public class DataGenerator {
             String login = getRandomLogin();
             String password = getRandomPassword();
             RegistrationDto user = new RegistrationDto(login, password, status);
-            sendRequest(user);
             return user;
         }
 
